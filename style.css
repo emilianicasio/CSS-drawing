@@ -121,25 +121,68 @@
     border: 0.7vmin solid black; 
 }
 
-.princks-one{
+.princks-one, .princks-two, .princks-three, .princks-four, .princks-five{
     position: absolute;
     width: 7vmin;
     height: 5vmin;
     background: #000;
     clip-path: polygon(53% 38%, 40% 100%, 66% 100%);
+}
+
+.princks-one {
     top: 2vmin;
     left: -5vmin;
     transform: rotate(290deg);
 }
 
 .princks-two{
-    position: absolute;
-    width: 7vmin;
-    height: 5vmin;
-    background: #000;
-    clip-path: polygon(53% 38%, 40% 100%, 66% 100%);
     top: 7vmin;
     left: -5.9vmin;
     transform: rotate(280deg);
 }
 
+.princks-three{
+    top: 13vmin;
+    left: -6.2vmin;
+    transform: rotate(260deg);
+}
+
+.princks-four{
+    top: 20vmin;
+    left: -5.2vmin;
+    transform: rotate(260deg);
+}
+
+.princks-five{
+    top: 4vmin;
+    left: 12vmin;
+    transform: rotate(60deg);
+}
+
+.prinks-right-one, .prinks-right-two,.prinks-right-three,.prinks-right-four{
+    font-size: 5vmin;
+    position: relative;
+    width: 5vmin;
+    margin: 0;
+    
+}
+
+.prinks-right-one{
+    top: 3vmin;
+    left: 4vmin;
+}
+
+.prinks-right-two{
+    top: 1vmin;
+    left: 9vmin;
+}
+
+.prinks-right-three{
+    top: -3vmin;
+    left: 2vmin;
+}
+
+.prinks-right-four{
+    top: -6vmin;
+    left: 12vmin;
+}
